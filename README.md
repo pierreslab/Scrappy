@@ -20,7 +20,7 @@
 
 ### 🏫 Community & Social
 *   **Classroom Leaderboards**: Compete with your classmates and toggle to see how your school ranks globally.
-*   **School Collective Impact**: View "Database Accurate" aggregate stats for your entire school (e.g., "Chedoke Elementary has saved 42 trees!").
+*   **School Collective Impact**: View "Database Accurate" aggregate stats for your entire school (e.g., "Hamilton Elementary has saved 42 trees!").
 *   **Peer Inspiration**: View the "Creations" gallery to see actual photos of crafts built by your classmates.
 
 ---

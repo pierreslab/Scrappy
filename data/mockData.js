@@ -3,7 +3,7 @@ export const USER = {
   points: 1250,
   streak: 4,
   class: 'Grade 5 - Ms. Miller',
-  school: 'Chedoke Elementary',
+  school: 'Hamilton Elementary',
   city: 'Hamilton, ON',
   avatar: '🧑‍🎓',
 };
@@ -45,7 +45,7 @@ export const SCHOOL_LEADERBOARD = [
 
 // Global - Top Elementary Schools in Ontario (Hamilton & Toronto)
 export const GLOBAL_LEADERBOARD = [
-  { id: 1, name: 'Chedoke Elementary', points: 285000, country: '🇨🇦', city: 'Hamilton, ON', students: 380 },
+  { id: 1, name: 'Hamilton Elementary', points: 285000, country: '🇨🇦', city: 'Hamilton, ON', students: 380 },
   { id: 2, name: 'Rosedale Heights Elementary', points: 267000, country: '🇨🇦', city: 'Toronto, ON', students: 420 },
   { id: 3, name: 'Westmount Elementary', points: 245000, country: '🇨🇦', city: 'Hamilton, ON', students: 350 },
   { id: 4, name: 'Deer Park Elementary', points: 232000, country: '🇨🇦', city: 'Toronto, ON', students: 390 },

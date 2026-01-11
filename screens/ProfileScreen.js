@@ -298,6 +298,8 @@ export default function ProfileScreen() {
               >
                 {craft.photoUri ? (
                   <Image source={{ uri: craft.photoUri }} style={styles.craftPhoto} />
+                ) : craft.aiPreviewUrl ? (
+                  <Image source={{ uri: craft.aiPreviewUrl }} style={styles.craftPhoto} />
                 ) : (
                   <View style={styles.craftEmojiContainer}>
                     <Text style={styles.craftEmoji}>{craft.emoji}</Text>

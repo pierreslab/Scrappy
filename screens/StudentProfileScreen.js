@@ -173,9 +173,15 @@ export default function StudentProfileScreen() {
               >
                 {crafts.map((craft) => (
                   <View key={craft.id} style={styles.craftCard}>
-                    {craft.image_url ? (
+                    {craft.photo_url ? (
                       <Image
-                        source={{ uri: craft.image_url }}
+                        source={{ uri: craft.photo_url }}
+                        style={styles.craftImage}
+                        resizeMode="cover"
+                      />
+                    ) : craft.ai_preview_url ? (
+                      <Image
+                        source={{ uri: craft.ai_preview_url }}
                         style={styles.craftImage}
                         resizeMode="cover"
                       />
