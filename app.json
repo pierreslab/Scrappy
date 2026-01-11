@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Scrappy",
+    "slug": "scrappy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/scrappy_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/scrappy_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#16A34A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.scrappy.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/scrappy_logo.png",
+        "backgroundColor": "#16A34A"
+      },
+      "package": "com.scrappy.app"
+    },
+    "web": {
+      "favicon": "./assets/scrappy_logo.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Scrappy to access your camera to scan recyclable items."
+        }
+      ]
+    ]
+  }
+}
