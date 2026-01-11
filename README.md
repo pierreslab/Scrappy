@@ -59,7 +59,4 @@
 
 ---
 
-## 🧗 Challenges & Learning
-Scrappy was built with a focus on **Accessibility First** and **Database Accuracy**. We pivoted from MongoDB to Supabase mid-development to leverage better relational data for our school-wide impact metrics. We also optimized AI latency by building a custom auto-cropping viewfinder to ensure near-instant material identification.
-
 **Built with ❤️ for a greener planet.**
